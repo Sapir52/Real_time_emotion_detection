@@ -12,7 +12,7 @@ Face-api.js - has brought a JavaScript API for face detection and face recogniti
 Models- are the trained data that we will use to detect the feature from the face.
 
 Index.html - we importing the face-api.min.js for processing the model data and extracting the features and main.js where we will write our logic.
-Inside the body tag we are creating a video tag to get the face, result-container for showing the emotion, gender, and age.
+Inside the body tag we are creating a video tag to get the face, result-container for showing the emotion, gender, age and type of emoji.
 
 Main.js - we are using promise.all to load the models to the face API. once the promise is resolved then we are calling the startVideo method that starts the streaming.
 
