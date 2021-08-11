@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Face Detection</title>
+  <!-- Link to the face-api script file --> 
+  <script defer src="js/face-api.min.js"></script>
+  <!-- Link to our main.js file --> 
+  <script defer src="js/main.js"></script>
+  <!-- Create a style-->
+  <style>
+    /* Style for body */
+    body {
+      margin: 0;
+      padding: 0;
+      width:100vw;
+      height: 110vh;
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+      align-items: center;
+      background-color: rgb(71, 255, 255);
+    }
+    /* #Canvas */
+    canvas {
+      position: absolute;
+      left: 100px;
+    }
+    /* #Face */
+    #face {
+      font-size: 128px;
+    }
+    /* Style for video */
+    div.video{
+      position: relative;
+      left: 100px;
+      border: solid rgb(15, 2, 2);
+    }
+    /* Style for title video */
+    div.h1_video {
+      position: absolute;
+      left: 400px;
+      top: 5px;
+      z-index: -1;
+    } 
+    /* Style for emoji face */
+    div.face{
+      position: absolute;
+      left: 900px;
+      border: solid rgb(15, 2, 2);
+    }
+    /* Style for title emoji */
+    div.h1_emoji {
+      position: absolute;
+      left: 900px;
+      top: 200px;
+      z-index: -1;
+    } 
+
+  </style>
+</head>
+<!-- Adding titles --> 
+<div class="h1_video"><h1><i>Face Detection</i></h1></div>
+<div class='h1_emoji'><h1><i>Emoji Detection</i></h1></div>
+<body>
+  <div class="video">
+     <!-- Place to put the live webcam video stream --> 
+    <video id="video" width="720" height="560" autoplay muted></video>
+  </div>
+  <!-- Later we will use this #canvas to draw bounding box around our face-->
+  <div  class="face" id="face"></div>
+</body>
+</html>
