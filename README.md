@@ -16,7 +16,7 @@ Inside the body tag we are creating a video tag to get the face, result-containe
 
 Main.js - we are using promise.all to load the models to the face API. once the promise is resolved then we are calling the startVideo method that starts the streaming.
 
-# Running:
+# Running the code:
 Start your local Web Server: python -m http.server --bind 127.0.0.1 8081
 
 Then open your browser and go to URL: http://127.0.0.1:8081
