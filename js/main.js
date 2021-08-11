@@ -1,15 +1,3 @@
-/**
-    * @description      : 
-    * @author           : ספיר
-    * @group            : 
-    * @created          : 11/08/2021 - 13:04:31
-    * 
-    * MODIFICATION LOG
-    * - Version         : 1.0.0
-    * - Date            : 11/08/2021
-    * - Author          : ספיר
-    * - Modification    : 
-**/
 // Access to DOM for video and face icon
 const video = document.getElementById("video");
 const face = document.getElementById('face');
