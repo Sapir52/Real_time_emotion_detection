@@ -1,4 +1,4 @@
-# Real time face detection
+# Real time emotion detection
 Face detection is one of the most common applications of Artificial Intelligence.
 
 # The purpose:
