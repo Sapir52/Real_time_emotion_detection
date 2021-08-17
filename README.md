@@ -1,6 +1,7 @@
 # Real time emotion detection
 Face detection is one of the most common applications of Artificial Intelligence.
 
+
 # The purpose:
 We will build the face recognition app that will work in the Browser. 
 
