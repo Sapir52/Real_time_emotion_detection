@@ -5,7 +5,7 @@ Face detection is one of the most common applications of Artificial Intelligence
 # The purpose:
 I built the face recognition app that will work in the Browser. 
 
-From the face, I predicted the Emotion, Gender, age and type of emoji.
+From the face, I predicted the emotion, gender, age and type of emoji.
 
 # Explanation of the files:
 Face-api.js - Has brought a JavaScript API for face detection and face recognition in the browser implemented on top of the tensorflow.js core API.
