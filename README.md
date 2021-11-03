@@ -23,3 +23,7 @@ Start your local Web Server: python -m http.server --bind 127.0.0.1 8081
 
 Then open your browser and go to URL: http://127.0.0.1:8081
 
+
+## For Python version:
+
+https://github.com/Sapir52/Face_detection_python_version
