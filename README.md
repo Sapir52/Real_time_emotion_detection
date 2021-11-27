@@ -2,6 +2,7 @@
 
 Face detection is one of the most common applications of Artificial Intelligence.
 
+
 # The purpose:
 The purpose of the project is to build a app for facial recognition that will work in the Browser.
 
