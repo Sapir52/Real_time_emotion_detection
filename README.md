@@ -6,7 +6,6 @@ The purpose of the project is to build a app for facial recognition that will wo
 
 The face will allow to predict the  emotion, gender, age and type of emoji.
 
-
 # Explanation of the files:
 Face-api.js - Has brought a JavaScript API for face detection and face recognition in the browser implemented on top of the tensorflow.js core API.
 
